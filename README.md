@@ -2,7 +2,7 @@
 
 Design and Comparative Analysis of Bootstrapped Sampling Switch and StrongARM-Based Comparator for a 6-bit, 10-MS/s SAR ADC in 500 nm CMOS Technology
 
-[📄 Paper](./paper.pdf) | [🖼 Poster](./poster.pdf)
+[📄 Paper](./sar_adc_paper.pdf) | [🖼 Poster](./poster.pdf)
 
 ---
 
