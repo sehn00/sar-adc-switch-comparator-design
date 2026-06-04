@@ -8,12 +8,13 @@ Design and Comparative Analysis of Bootstrapped Sampling Switch and StrongARM-Ba
 
 ## 프로젝트 요약
 
-본 프로젝트는 중앙대학교 반도체설계특성화사업의 지원을 받아 전자전기공학부에서 수행한 CMOS 집적회로 설계 팀 프로젝트로, 500 nm CMOS 공정을 기반으로 6-bit, 10-MS/s SAR ADC에 적용할 Bootstrapped Sampling Switch와 Comparator를 설계하고, 각 블록의 주요 설계 변수와 성능 trade-off를 schematic-level transient simulation을 통해 분석하였다.
+본 프로젝트는 중앙대학교 반도체설계특성화사업의 지원을 받아 전자전기공학부에서 수행한 CMOS 집적회로 설계 팀 프로젝트이다. 500 nm CMOS 공정을 기반으로 6-bit, 10-MS/s SAR ADC에 적용할 Bootstrapped Sampling Switch와 Comparator를 설계하고, 각 블록의 회로 구조와 주요 설계 변수가 동작 특성에 미치는 영향을 schematic-level transient simulation을 통해 분석하였다.
 
-Bootstrapped Sampling Switch에서는 출력단 3-stack NMOS의 sizing, MOSFET body connection, bootstrap capacitor 크기가 OUT node 특성과 boost node 전압에 미치는 영향을 검토하였다. Comparator에서는 Type-I, Type-II, Type-III 세 가지 후보 구조를 구현하고 propagation delay, rise/fall time, average power, minimum resolvable input, output-holding 특성을 기준으로 비교하였다.
+Bootstrapped Sampling Switch에서는 입력 전압 변화에 따른 MOS switch의 ON 저항 변동을 완화하고 sampling 안정성을 확보하기 위해 출력단에 3-stack NMOS 구조를 적용하였다. 이후 NMOS sizing, MOSFET body connection, bootstrap capacitor 크기를 변화시키며 OUT node의 transient behavior와 boost node 전압 특성을 비교하였다.
 
-비교 결과, Type-III output-holding StrongARM dynamic latch comparator가 input resolving capability와 output-holding 특성 측면에서 가장 우수한 결과를 보였으며, 이를 최종 comparator 구조로 선정하였다. 본 저장소에는 대한전자공학회 하계학술대회 제출 논문과 포스터 자료가 포함되어 있다.
+Comparator에서는 SAR ADC의 bit decision 성능을 검토하기 위해 Type-I, Type-II, Type-III 세 가지 후보 구조를 구현하였다. 각 구조는 propagation delay, rise/fall time, average power, minimum resolvable input, output-holding 특성을 기준으로 비교하였으며, 단순한 동작 속도뿐 아니라 전력 소모와 입력 전압 구분 능력, 출력 유지 특성 사이의 trade-off를 함께 분석하였다.
 
+본 연구는 개별 아날로그 블록 수준의 schematic-level 검증을 중심으로 수행되었다. 향후에는 SAR logic 및 CDAC를 결합한 전체 SAR ADC 회로를 구성하고, post-layout parasitic, PVT variation, device mismatch를 포함한 조건에서 변환 정확도와 동작 안정성을 검증할 예정이다.
 ---
 
 ## Authors
