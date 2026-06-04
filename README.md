@@ -8,11 +8,11 @@ Design and Comparative Analysis of Bootstrapped Sampling Switch and StrongARM-Ba
 
 ## 프로젝트 요약
 
-본 프로젝트는 중앙대학교 반도체설계특성화사업의 지원을 받아 전자전기공학부에서 수행한 팀 프로젝트로, 500 nm CMOS 공정을 기반으로 6-bit, 10-MS/s SAR ADC의 핵심 아날로그 블록인 Bootstrapped Sampling Switch와 Comparator를 설계하고 성능을 비교·분석한 연구이다., 500 nm CMOS 공정을 기반으로 6-bit, 10-MS/s SAR ADC의 핵심 아날로그 블록인 Bootstrapped Sampling Switch와 Comparator를 설계하고 성능을 비교·분석하였다.
+본 프로젝트는 중앙대학교 반도체설계특성화사업의 지원을 받아 전자전기공학부에서 수행한 CMOS 집적회로 설계 팀 프로젝트로, 500 nm CMOS 공정을 기반으로 6-bit, 10-MS/s SAR ADC에 적용할 Bootstrapped Sampling Switch와 Comparator를 설계하고, 각 블록의 주요 설계 변수와 성능 trade-off를 schematic-level transient simulation을 통해 분석하였다.
 
-Bootstrapped Sampling Switch에서는 3-stack NMOS sizing, MOSFET body connection, bootstrap capacitor 크기가 회로 특성에 미치는 영향을 분석하였다. Comparator에서는 Type-I, Type-II, Type-III 세 가지 후보 구조를 설계하고 propagation delay, transition speed, average power, minimum resolvable input 및 output-holding 특성을 비교하였다.
+Bootstrapped Sampling Switch에서는 출력단 3-stack NMOS의 sizing, MOSFET body connection, bootstrap capacitor 크기가 OUT node 특성과 boost node 전압에 미치는 영향을 검토하였다. Comparator에서는 Type-I, Type-II, Type-III 세 가지 후보 구조를 구현하고 propagation delay, rise/fall time, average power, minimum resolvable input, output-holding 특성을 기준으로 비교하였다.
 
-비교 결과를 바탕으로 Type-III output-holding StrongARM dynamic latch comparator를 최종 구조로 선정하였으며, 본 저장소에는 대한전자공학회 하계학술대회 제출 논문 및 포스터 자료가 포함되어 있다.
+비교 결과, Type-III output-holding StrongARM dynamic latch comparator가 input resolving capability와 output-holding 특성 측면에서 가장 우수한 결과를 보였으며, 이를 최종 comparator 구조로 선정하였다. 본 저장소에는 대한전자공학회 하계학술대회 제출 논문과 포스터 자료가 포함되어 있다.
 
 ---
 
