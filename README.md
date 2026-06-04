@@ -20,8 +20,8 @@ Comparator에서는 SAR ADC의 bit decision 성능을 검토하기 위해 Type-I
 
 ## Authors
 
-Wooseok Choi, Jongwoo Seo, Taekgeun Kim, Jiyeon Lee,  
-Kwanwoo Kim, Yun Heo, Sehyeon Choi, and Junhyung Park
+Woosuk Choi, Sehyeon Choi, Jiyeon Lee, Yun Heo, 
+Jongwoo Seo, Kwanwoo Kim, Taekgeun Kim, and Junhyung Park
 
 Department of Electrical and Electronics Engineering
 Chung-Ang University
