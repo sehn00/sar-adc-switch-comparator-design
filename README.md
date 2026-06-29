@@ -8,7 +8,7 @@ Design and Comparative Analysis of Bootstrapped Sampling Switch and StrongARM-Ba
 
 ## 프로젝트 요약
 
-본 프로젝트는 중앙대학교 반도체설계특성화사업의 지원을 받아 전자전기공학부에서 수행한 CMOS 집적회로 설계 팀 프로젝트이다. 500 nm CMOS 공정을 기반으로 6-bit, 10-MS/s SAR ADC에 적용할 Bootstrapped Sampling Switch와 Comparator를 설계하고, 각 블록의 회로 구조와 주요 설계 변수가 동작 특성에 미치는 영향을 schematic-level transient simulation을 통해 분석하였다.
+본 프로젝트는 중앙대학교 반도체설계특성화사업의 지원을 받아 전자전기공학부에서 수행한 팀 프로젝트이다. 500 nm CMOS 공정을 기반으로 6-bit, 10-MS/s SAR ADC에 적용할 Bootstrapped Sampling Switch와 Comparator를 설계하고, 각 블록의 회로 구조와 주요 설계 변수가 동작 특성에 미치는 영향을 schematic-level transient simulation을 통해 분석하였다.
 
 Bootstrapped Sampling Switch에서는 입력 전압 변화에 따른 MOS switch의 ON 저항 변동을 완화하고 sampling 안정성을 확보하기 위해 출력단에 3-stack NMOS 구조를 적용하였다. 이후 NMOS sizing, MOSFET body connection, bootstrap capacitor 크기를 변화시키며 OUT node의 transient behavior와 boost node 전압 특성을 비교하였다.
 
